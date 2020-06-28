@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=1200">
+    <title>Web-page</title>
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
+    <!--[if IE 8 ]>
+  <link href="./assets/stylesheets/ie8.css" rel="stylesheet" type="text/css" media="all">
+  <![endif]-->
+    <script src="js/jquery-1.8.2.min.js" type="text/javascript"></script>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,700italic,400italic|Open+Sans:400,400italic,600,600italic,700,700italic|Open+Sans+Condensed:300,300italic,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+    <link href="css/responsive-off.css" rel="stylesheet">
+    <!-- form elements -->
+    <link href="css/jquery.formstyler.css" rel="stylesheet" />
+    <script src="js/jquery.formstyler.js"></script>
+    <!-- form elements -->
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- шапка сайта -->
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-xs-8 col-sm-8">
+                        <div class="logo fll col-md-2 col-xs-2 col-sm-2"></div>
+                        <div class="title-obmen fll col-md-5 col-xs-5 col-sm-5">Обменник Скруджа</div>
+                        <div class="search fll col-md-5 col-xs-5 col-sm-5">
+                            <p>
+                                Режим работы:
+                                <span>Круглосуточно</span>
+                            </p>
+                            <form action="">
+                                <div class="">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" placeholder="Поиск...">
+                                        <span class="input-group-btn">
+                                            <button class="btn btn-default" type="button"></button>
+                                        </span>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-4 col-sm-4">
+                        <div class="col-md-7 col-xs-7 col-sm-7">
+                            <a href="#" class="enter-cabinet enter fll">Вход в личный кабинет</a>
+                        </div>
+                        <div class="col-md-5 col-xs-5 col-sm-5 no-padding-left">
+                            <div class="contacts">
+                                <p class="contacts-p strong-p">Связаться с нами:</p>
+                                <p class="contacts-p phone-icon">8-904-139-80-96</p>
+                                <p class="contacts-p">k.saytov@mail.ru</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- шапка сайта -->
+        <!-- контентная часть -->
+        <div class="content">
+            <section class="bg-main">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-xs-6 col-sm-6">
+                            <div class="main-area">
+                                <h3>Поменять валюту</h3>
+                                <form action="">
+                                    <div class="row">
+                                        <div class="col-md-12 col-xs-12 col-sm-12">
+                                            <div class="col-md-4 col-xs-4 col-sm-4">
+                                                <div class="summ-p">Сумма обмена:</div>
+                                            </div>
+                                            <div class="col-md-3 col-xs-3 col-sm-3">
+                                                <input class="styler" type="text" value="0"></div>
+                                            <div class="col-md-5 col-xs-5 col-sm-5">
+                                                <input class="styler" type="text"></div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12 col-xs-12 col-sm-12">
+                                            <div class="col-md-4 col-xs-4 col-sm-4"></div>
+                                            <div class="col-md-3 col-xs-3 col-sm-3">
+                                                <input class="styler" type="text" value="0"></div>
+                                            <div class="col-md-5 col-xs-5 col-sm-5">
+                                                <select>
+                                                    <option>Выберите направление</option>
+                                                    <option>Пункт 1</option>
+                                                    <option>Пункт 2</option>
+                                                    <option disabled>Пункт 3</option>
+                                                    <option>Пункт 4</option>
+                                                    <option>Пункт 5</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-4 col-xs-4 col-sm-4">
+                                            <div class="bonus">
+                                                Бонус за обмен:
+                                                <span>0</span>
+                                            </div>
+                                            <div class="bonus">Курс обмена</div>
+                                        </div>
+                                        <div class="col-md-6 col-xs-6 col-sm-6">
+                                            <button class="brown-button fll margin-no right-abs">ОБМЕНЯТЬ</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-xs-6 col-sm-6 no-padding-left">
+                            <div class="right-main">
+                                <h3>Обмен шаг №1</h3>
+                                <div class="full-line">
+                                    <div class="dott1">1</div>
+                                    <div class="dott2">2</div>
+                                    <div class="dott3">3</div>
+                                    <div class="dott4">4</div>
+                                    <div class="dott5">5</div>
+                                    <div class="var-txt">Выбор валюты</div>
+                                    <div class="var-txt2">Создание заявки</div>
+                                    <div class="var-txt3">Подтверждение заявки</div>
+                                    <div class="var-txt4">Оплата заявки</div>
+                                    <div class="var-txt5">Состояние заявки</div>
+                                </div>
+                                <h3 class="mg-top-main">Вход в систему</h3>
+                                <div class="row">
+                                    <div class="col-md-7 col-sm-7 col-xs-7">
+                                        <div class="row">
+                                            <div class="col-md-7 col-xs-7 col-sm-7">
+                                                <input class="styler" type="text" placeholder="Ваш логин"></div>
+                                            <div class="col-md-5 col-xs-5 col-sm-5">
+                                                <input class="styler" type="checkbox">
+                                                <label class="cbx-style" for="checkbox">Запомнить</label>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-7 col-xs-7 col-sm-7">
+                                                <input class="styler" type="password" placeholder="Ваш пароль"></div>
+                                            <div class="col-md-5 col-xs-5 col-sm-5">
+                                                <input class="styler" type="text" placeholder="Войти"></div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12 col-xs-12 col-sm-12">
+                                                <div class="forgot-pass">
+                                                    Забыли пароль?
+                                                    <a href="#">Зарегистрироваться</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-5 col-sm-5 col-xs-5">
+                                        <div class="ducky-img"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-xs-12 col-sm-12">
+                            <div class="col-md-5 col-sm-5 col-xs-5 flr">
+                                <div class="area-pay flr">
+                                    <h3>Вы принимаете</h3>
+                                    <div class="area-obm-full">
+                                        <img class="fll" src="img/valute1.png" height="42" width="92" alt="">
+                                        <img class="fll" src="img/valute2.png" height="42" width="92" alt="">
+                                        <img class="fll" src="img/valute3.png" height="42" width="92" alt="">
+                                        <img class="fll" src="img/valute4.png" height="42" width="92" alt="">
+                                        <img class="fll" src="img/valute2.png" height="42" width="92" alt="">
+                                        <img class="fll" src="img/valute1.png" height="42" width="92" alt="">
+                                        <img class="fll" src="img/valute4.png" height="42" width="92" alt="">
+                                        <img class="fll" src="img/valute3.png" height="42" width="92" alt="">
+                                    </div>
+                                    <div class="paggination floater-pagg">
+                                        <div class="pg1"></div>
+                                        <div class="pg2"></div>
+                                        <div class="pg3"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-5 col-sm-5 col-xs-5 flr">
+                                <div class="area-pay flr marg-q-1">
+                                    <h3>Вы отдаете</h3>
+                                    <div class="area-obm-full">
+                                        <img class="fll" src="img/valute1.png" height="42" width="92" alt="">
+                                        <img class="fll" src="img/valute2.png" height="42" width="92" alt="">
+                                        <img class="fll" src="img/valute3.png" height="42" width="92" alt="">
+                                        <img class="fll" src="img/valute4.png" height="42" width="92" alt="">
+                                        <img class="fll" src="img/valute2.png" height="42" width="92" alt="">
+                                        <img class="fll" src="img/valute1.png" height="42" width="92" alt="">
+                                        <img class="fll" src="img/valute4.png" height="42" width="92" alt="">
+                                        <img class="fll" src="img/valute3.png" height="42" width="92" alt="">
+                                    </div>
+                                    <div class="paggination floater-pagg">
+                                        <div class="pg1"></div>
+                                        <div class="pg2"></div>
+                                        <div class="pg3"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div </section> </div> <!-- контентная часть -->
+                <!-- подвал -->
+                <div class="footer">
+                    <div class="container">
+                        <div class="row">
+                            <div class="donald-loup-img"></div>
+                            <div class="footer-social">
+                                <div class="socials">
+                                    <a href="#" class="fll soc-icon1"></a>
+                                    <a href="#" class="fll soc-icon2"></a>
+                                    <a href="#" class="fll soc-icon3"></a>
+                                </div>
+                                <p>Мы в социальных сетях</p>
+                            </div>
+                            <ul class="nav-bottom">
+                                <li>
+                                    <a href="" class="active">Главная</a>
+                                    <span class="spli">/</span>
+                                </li>
+                                <li>
+                                    <a href="">Отзывы</a>
+                                    <span class="spli">/</span>
+                                </li>
+                                <li>
+                                    <a href="">Кабинет</a>
+                                    <span class="spli">/</span>
+                                </li>
+                                <li>
+                                    <a href="">Тариф</a>
+                                    <span class="spli">/</span>
+                                </li>
+                                <li>
+                                    <a href="">Вопросы</a>
+                                    <span class="spli">/</span>
+                                </li>
+                                <li>
+                                    <a href="">Контакты</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- подвал -->
+        </div>
+        <script>
+        (function($) {
+            $(function() {
+                $('input, select').styler({
+                    selectSearch: true
+                });
+            });
+        })(jQuery);
+        </script>
+        <script src="js/cs.script.js" type="text/javascript"></script>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="js/bootstrap.js"></script>
+        <script type="text/javascript">
+        $('.selectpicker').selectpicker();
+        </script>
+        <!-- github -->
+        <a class="github" href="https://github.com/saflex/scrooge-exchanger" target="_blank">
+            <i>Посмотреть другие страницы этого проекта и исходный код можно на <span>github</span></i>
+            <svg class="octicon octicon-mark-github v-align-middle" height="32" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true">
+                <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
+            </svg>
+        </a>
+        <style type="text/css">
+        body .github {
+            font-family: 'arial';
+            position: fixed;
+            bottom: 0;
+            height: auto;
+            width: 100%;
+            left: 0;
+            right: 0;
+            background: #fff;
+            text-align: center;
+            font-size: 16px;
+            display: flex;
+            text-decoration: none;
+            padding: 15px;
+            align-items: center;
+            justify-content: center;
+            -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+            -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+            box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+            z-index: 9998;
+        }
+
+        body .github i {
+            font-style: italic !important;
+            display: block !important;
+            color: #000 !important;
+            opacity: 0.65 !important;
+            transition: all 0.3s ease-in-out !important;
+        }
+
+
+
+        body .github i span {
+            font-weight: 900 !important;
+        }
+
+        body .github svg {
+            display: block !important;
+            margin-left: 10px !important;
+            opacity: 0.65 !important;
+            transition: all 0.3s ease-in-out !important;
+        }
+
+        body .github:hover i,
+        body .github:hover svg {
+            opacity: 1 !important;
+        }
+
+        body .github:hover svg {
+            transform: scale(1.1);
+        }
+        </style>
+        <script type="text/javascript">
+        const allLinks = document.querySelectorAll('a');
+        const github = document.querySelector('.github');
+        for (let elem of allLinks) {
+            if (elem !== github) {
+                elem.onclick = function(event) {
+                    event.preventDefault();
+                }
+            }
+        }
+        </script>
+        <!-- github -->
+</body>
+
+</html>
